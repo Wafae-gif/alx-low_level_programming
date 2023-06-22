@@ -1,17 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-    char c;
+    int r;
 
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
+    r = _isupper('H');
+    _putchar(r + '0');
+    r = _isoupper('o');
+    _putchar(r + '0');
+    r = _isupper(108);
+    _putchar(r + '0');
+    _putchar('\n');
     return (0);
 }
+

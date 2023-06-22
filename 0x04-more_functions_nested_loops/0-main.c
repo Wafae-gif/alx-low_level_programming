@@ -11,7 +11,7 @@ int main(void)
 
     r = _isupper('H');
     _putchar(r + '0');
-    r = _isoupper('o');
+    r = _isupper('o');
     _putchar(r + '0');
     r = _isupper(108);
     _putchar(r + '0');

@@ -22,4 +22,5 @@ char *_strdup(char *str)
 	for (i = 0; i < strlen(str); i++)
 		strd[i] = str[i];
 	return (strd);
+	free(strd);
 }
